@@ -1,0 +1,45 @@
+ body {
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+    background: #fff5f8;
+    padding: 30px;
+  }
+
+  h1 {
+   color: #ff8bb1;
+  font-size: 32px;
+  }
+
+  p{
+    color: #ff8bb1;
+  font-size: 14px;
+  margin-bottom: 20px;
+  }
+
+  #flower {
+    font-size: 80px;
+    margin: 20px 0 30px;
+  }
+
+  .task-box {
+    background: #ffffff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.task-item input[type="text"] {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
